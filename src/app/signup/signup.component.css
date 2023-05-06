@@ -1,8 +1,76 @@
+*{
+	padding: 0px;
+	margin: 1px;
+	font-family: sans-serif;
+}
+.container{
+    display:flex;
+    background-color:rgb(161, 225, 250);
+    min-height: 100vh;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+}
 .card {
-	width: 500px;
+	width: 400px;
 	padding: 40px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+   background-color:white;
 }
+
+ 
+ .text-center {
+	text-align: center;
+	 font-weight: bold;
+	 padding:2px;
+	 margin-bottom: -20px;
+	 position: relative;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 height: fit-content;
+ }
+ .text-center h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 30px 0;
+ }
+
+ .card form{
+	font-size: 20px;
+	margin: 0px 0;
+	
+	
+ }
+ 
+ .mb-3 input {
+	 font-size: 20px;
+	 padding: 15px 10px;
+	 width: 350px;
+	
+	 border-radius: 10px;
+	 outline:none;
+ }
+ 
+ .card button{
+    font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border-radius: 5px;
+	
+ }
+ .card button:hover{
+    color: olivedrab;
+ }
+
+ .card h6{
+	font-size: 18px;
+ }
+ 
+
